@@ -1,0 +1,19 @@
+{
+  "name": "JIRA Resolve to QA Descriptior",
+  "version": "1.4.0",
+  "author": "Damian Dziaduch",
+  "description": "Simplifies the 'assign to qa' action.",
+  "icons": { "128": "icon.png" },
+  "content_scripts": [
+    { "matches": ["https://jira.netdirector.co.uk/*"], "js": [
+      "jquery.min.js",
+      "hax.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "tabs",
+    "https://jira.netdirector.co.uk/*"
+  ],
+  "manifest_version": 2
+}
