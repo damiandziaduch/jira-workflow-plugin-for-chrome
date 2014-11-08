@@ -1,6 +1,6 @@
 {
   "name": "JIRA Resolve to QA Descriptior",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "author": "Damian Dziaduch",
   "description": "Simplifies the 'assign to qa' action.",
   "icons": { "128": "icon.png" },
